@@ -21,7 +21,7 @@ car_mpg = cars[car_name]
 print(f"The {car_name} gets {car_mpg} miles per gallon.")
 
 #Get miles from user
-miles_driven = float(input("How many miles will you drive the {car_name}?"))
+miles_driven = float(input(f"How many miles will you drive the {car_name}?"))
 
 #Calculate
 gallons_needed = miles_driven/car_mpg
